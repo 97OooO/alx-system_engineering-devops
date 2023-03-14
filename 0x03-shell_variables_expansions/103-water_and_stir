@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(base bestchol $(($(base water $WATER) + $(base stir $STIR))))
