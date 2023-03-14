@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f1 $1 | sort | uniq -c | sort -rn | head -n11 | while read count host; do echo -e "$host\t$count"; done
+ 
