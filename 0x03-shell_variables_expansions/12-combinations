@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$(echo {a..z}{a..n}{p..z}\n)"
+grep -v 'oo' <(echo {a..z}{a..z}) | grep '^a' | sort
